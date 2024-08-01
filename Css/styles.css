@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+.porcentaje {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(100px);
+    color: #0c6aff;
+}
+.barra {
+    background-color: #352d2d8a;
+    height: 45px;
+    width: 50%;
+    margin: 130px auto;
+    box-shadow: inset 6px 6px 10px #352d2d8a, 
+                inset -6px -6px 10px #352d2d8a;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+.progreso {
+    height: 100%;
+    width: 0%;
+    background-color: #0c6aff;
+    box-shadow: 0 0 10px #0c6aff,
+                0 0 20px #0c6aff;
+    display: block;
+    border-radius: 20rem;
+}
+body.celebracion {
+    background-image: url("../Img/celebracion.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
